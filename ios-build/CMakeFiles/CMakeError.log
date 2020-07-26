@@ -1,0 +1,80 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+65
+Build settings from command line:
+    TOOLCHAINS = com.apple.dt.toolchain.XcodeDefault
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+error: An empty identity is not valid when signing a binary for the product type 'Command-line Tool'. (in target 'CompilerIdC' from project 'CompilerIdC')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+
+** BUILD FAILED **
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+65
+Build settings from command line:
+    TOOLCHAINS = com.apple.dt.toolchain.XcodeDefault
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+error: An empty identity is not valid when signing a binary for the product type 'Command-line Tool'. (in target 'CompilerIdC' from project 'CompilerIdC')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+
+** BUILD FAILED **
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+65
+Build settings from command line:
+    TOOLCHAINS = com.apple.dt.toolchain.XcodeDefault
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+error: An empty identity is not valid when signing a binary for the product type 'Command-line Tool'. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+
+** BUILD FAILED **
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+65
+Build settings from command line:
+    TOOLCHAINS = com.apple.dt.toolchain.XcodeDefault
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+error: An empty identity is not valid when signing a binary for the product type 'Command-line Tool'. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+
+** BUILD FAILED **
+
+
+

@@ -1,0 +1,894 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		51FF71ABA4464A4BA5B6BF2F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FB9DC527D88241CF9BA580B2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				088D7660F8F745D2BB8A6E61 /* CMake Rules */,
+			);
+			dependencies = (
+				A0E5A879D9E8474D99295109 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		ACE113CCBC25425CABA1FF7A /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 749C30A468F2418CAB9F42C2 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				C9CE63B214764CC5B82FDFDA /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				0FA3CA76089444B7A8AC70F9 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		E2E9910E98B741D399FFB561 /* format */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6C1B5D9CD0E548F88AA0752F /* Build configuration list for PBXAggregateTarget "format" */;
+			buildPhases = (
+				EC651F74226D42BF92EAAE06 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = format;
+			productName = format;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00FC1B8B34514193AE5949CC /* FDEightLinkSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 7672F9F7036C4573A4AF9986 /* FDEightLinkSocket.c */; };
+		22732C6052F2469F824932FB /* s2j.c in Sources */ = {isa = PBXBuildFile; fileRef = 41D5953DAFAA45E98F41C777 /* s2j.c */; };
+		3F70AF903ACA4E65B705455B /* ifaddrs-android-4dage.c in Sources */ = {isa = PBXBuildFile; fileRef = 941ADA4211B24C3B866A89A2 /* ifaddrs-android-4dage.c */; };
+		43216EA4F6684C6DB2432F68 /* FDEightLinkClient.c in Sources */ = {isa = PBXBuildFile; fileRef = C970F87FB8334605AFE9CF82 /* FDEightLinkClient.c */; };
+		745A486DD21F489AAB69E937 /* cJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = D04415A6F7CC4FB7AB693234 /* cJSON.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B0577301CCE4A64875D9E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B1EC4B67CEE4A11BD203FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51FF71ABA4464A4BA5B6BF2F;
+			remoteInfo = ALL_BUILD;
+		};
+		6BFF9FBB13C64B2AB50B4F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B1EC4B67CEE4A11BD203FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C652D4CF37546958ECCA096;
+			remoteInfo = "FDKK-linker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16532192F89D473DA1184E6A /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		27AA293674F7404987B9C377 /* s2j.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = s2j.h; path = include/ThirdParty/s2j.h; sourceTree = SOURCE_ROOT; };
+		28AA771D279C4E3B9824B427 /* cJSON.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cJSON.h; path = include/ThirdParty/cJSON.h; sourceTree = SOURCE_ROOT; };
+		2B1D9CA8AB0F445694374F2E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		41D5953DAFAA45E98F41C777 /* s2j.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s2j.c; path = src/ThirdParty/s2j.c; sourceTree = SOURCE_ROOT; };
+		4B703487B9FC4E348686C783 /* FDEightLinkSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FDEightLinkSocket.h; path = include/FDEightLinkSocket.h; sourceTree = SOURCE_ROOT; };
+		718844AB03DE430B9BEF4287 /* FDEightConfigInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FDEightConfigInfo.h; path = include/FDEightConfigInfo.h; sourceTree = SOURCE_ROOT; };
+		7672F9F7036C4573A4AF9986 /* FDEightLinkSocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = FDEightLinkSocket.c; path = src/FDEightLinkSocket.c; sourceTree = SOURCE_ROOT; };
+		8E7E99FD25EE40DBAD89FD76 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		92DC338D6A6741D3B90C49C0 /* ifaddrs-android-4dage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "ifaddrs-android-4dage.h"; path = "include/ifaddrs-android-4dage.h"; sourceTree = SOURCE_ROOT; };
+		941ADA4211B24C3B866A89A2 /* ifaddrs-android-4dage.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "ifaddrs-android-4dage.c"; path = "src/ifaddrs-android-4dage.c"; sourceTree = SOURCE_ROOT; };
+		BB2E8EE7872F403AB62A54D1 /* s2jdef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = s2jdef.h; path = include/ThirdParty/s2jdef.h; sourceTree = SOURCE_ROOT; };
+		C4BE96D80BC54CF0949895A5 /* libFDKK-linker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFDKK-linker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C970F87FB8334605AFE9CF82 /* FDEightLinkClient.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = FDEightLinkClient.c; path = src/FDEightLinkClient.c; sourceTree = SOURCE_ROOT; };
+		D04415A6F7CC4FB7AB693234 /* cJSON.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cJSON.c; path = src/ThirdParty/cJSON.c; sourceTree = SOURCE_ROOT; };
+		DB2C762A2BAC4FE29328E2A4 /* FDEightLinkClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FDEightLinkClient.h; path = include/FDEightLinkClient.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2DEDADBB65EB49C3877E075A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				655BEEE3950545969558B491 /* CMake Rules */,
+				8E7E99FD25EE40DBAD89FD76 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6007C305F3574DFDB70B84A4 /* format */ = {
+			isa = PBXGroup;
+			children = (
+				925039BF7DDE42299E4473EA /* CMake Rules */,
+				16532192F89D473DA1184E6A /* CMakeLists.txt */,
+			);
+			name = format;
+			sourceTree = "<group>";
+		};
+		655BEEE3950545969558B491 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		65D86730638F4B369A3A7084 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C970F87FB8334605AFE9CF82 /* FDEightLinkClient.c */,
+				7672F9F7036C4573A4AF9986 /* FDEightLinkSocket.c */,
+				D04415A6F7CC4FB7AB693234 /* cJSON.c */,
+				41D5953DAFAA45E98F41C777 /* s2j.c */,
+				941ADA4211B24C3B866A89A2 /* ifaddrs-android-4dage.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		925039BF7DDE42299E4473EA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A5288EAAD2844CBF989B484F = {
+			isa = PBXGroup;
+			children = (
+				6007C305F3574DFDB70B84A4 /* format */,
+				E47508A8F1D640B1BCF1B4D7 /* FDKK-linker */,
+				2DEDADBB65EB49C3877E075A /* ALL_BUILD */,
+				AD136FA15425484B8E7BDF14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD136FA15425484B8E7BDF14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4BE96D80BC54CF0949895A5 /* libFDKK-linker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE6C8FEF98140FBBE9C0FD7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				718844AB03DE430B9BEF4287 /* FDEightConfigInfo.h */,
+				DB2C762A2BAC4FE29328E2A4 /* FDEightLinkClient.h */,
+				4B703487B9FC4E348686C783 /* FDEightLinkSocket.h */,
+				28AA771D279C4E3B9824B427 /* cJSON.h */,
+				27AA293674F7404987B9C377 /* s2j.h */,
+				BB2E8EE7872F403AB62A54D1 /* s2jdef.h */,
+				92DC338D6A6741D3B90C49C0 /* ifaddrs-android-4dage.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E47508A8F1D640B1BCF1B4D7 /* FDKK-linker */ = {
+			isa = PBXGroup;
+			children = (
+				65D86730638F4B369A3A7084 /* Source Files */,
+				DFE6C8FEF98140FBBE9C0FD7 /* Header Files */,
+				2B1D9CA8AB0F445694374F2E /* CMakeLists.txt */,
+			);
+			name = "FDKK-linker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C652D4CF37546958ECCA096 /* FDKK-linker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0355C6E87343405689CB406A /* Build configuration list for PBXNativeTarget "FDKK-linker" */;
+			buildPhases = (
+				4154320EC0FC41789A9F6E7C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FDKK-linker";
+			productName = "FDKK-linker";
+			productReference = C4BE96D80BC54CF0949895A5 /* libFDKK-linker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B1EC4B67CEE4A11BD203FD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 032B2B924C3847CF9D1C31D0 /* Build configuration list for PBXProject "FKKK_LINKER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5288EAAD2844CBF989B484F;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				51FF71ABA4464A4BA5B6BF2F /* ALL_BUILD */,
+				3C652D4CF37546958ECCA096 /* FDKK-linker */,
+				E2E9910E98B741D399FFB561 /* format */,
+				ACE113CCBC25425CABA1FF7A /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		088D7660F8F745D2BB8A6E61 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build -f /Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CE63B214764CC5B82FDFDA /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build -f /Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EC651F74226D42BF92EAAE06 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build -f /Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build/CMakeScripts/format_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4154320EC0FC41789A9F6E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43216EA4F6684C6DB2432F68 /* FDEightLinkClient.c in Sources */,
+				00FC1B8B34514193AE5949CC /* FDEightLinkSocket.c in Sources */,
+				745A486DD21F489AAB69E937 /* cJSON.c in Sources */,
+				22732C6052F2469F824932FB /* s2j.c in Sources */,
+				3F70AF903ACA4E65B705455B /* ifaddrs-android-4dage.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FA3CA76089444B7A8AC70F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51FF71ABA4464A4BA5B6BF2F /* ALL_BUILD */;
+			targetProxy = 0B0577301CCE4A64875D9E27 /* PBXContainerItemProxy */;
+		};
+		A0E5A879D9E8474D99295109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C652D4CF37546958ECCA096 /* FDKK-linker */;
+			targetProxy = 6BFF9FBB13C64B2AB50B4F16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		058A355E2F614018BA816154 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build/build";
+			};
+			name = MinSizeRel;
+		};
+		2782D716EB42420FBFAE3AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = format;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		27A21667128D4CB883B14B38 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = format;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		3468861314544A7CA8D42ED2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		380F35F8B6DA4E6D98BF6BA3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		39949B38DAE74637B9F22A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		41588D8AF48C4056BAF94BFD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		50B2D54B179B46B69574E2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		62057052D2654A8B8503FC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/include,
+					/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/src,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-Wall",
+					"-Wextra",
+					"-Wshadow",
+					"-Weffc++",
+					"-pedantic",
+					"-pedantic-errors",
+					"-pedantic",
+					"-Wno-long-long",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FDKK-linker";
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		79F68D7C70E046B0A5B013AD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		7FFDE2D37571497082A92D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		8C8349B9E56249A1A59D7D97 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/include,
+					/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/src,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-Wall",
+					"-Wextra",
+					"-Wshadow",
+					"-Weffc++",
+					"-pedantic",
+					"-pedantic-errors",
+					"-pedantic",
+					"-Wno-long-long",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FDKK-linker";
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		8E4F2F0DFE354C448586D1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build/build";
+			};
+			name = Release;
+		};
+		9410ADD7B35048E98EEEFA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/include,
+					/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/src,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wshadow",
+					"-Weffc++",
+					"-pedantic",
+					"-pedantic-errors",
+					"-pedantic",
+					"-Wno-long-long",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FDKK-linker";
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		ABC854FCA14D41458EFC8021 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = format;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		B8196D8A33BF4F5EBAC6890E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B907E731B7B64C7EA54FCCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build/build";
+			};
+			name = Debug;
+		};
+		CB9BEB09C399457DA0CC7300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = format;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		DFE744096B274420B4FEFB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		ED159612A9F14718A4424EFB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/include,
+					/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/src,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-Wall",
+					"-Wextra",
+					"-Wshadow",
+					"-Weffc++",
+					"-pedantic",
+					"-pedantic-errors",
+					"-pedantic",
+					"-Wno-long-long",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FDKK-linker";
+				SDKROOT = iphoneos;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/4dage_imacmini/Desktop/LEI_WORKPLACE/FDKKEyeLinkLib/ios-build";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032B2B924C3847CF9D1C31D0 /* Build configuration list for PBXProject "FKKK_LINKER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B907E731B7B64C7EA54FCCAD /* Debug */,
+				8E4F2F0DFE354C448586D1C3 /* Release */,
+				058A355E2F614018BA816154 /* MinSizeRel */,
+				B8196D8A33BF4F5EBAC6890E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0355C6E87343405689CB406A /* Build configuration list for PBXNativeTarget "FDKK-linker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9410ADD7B35048E98EEEFA78 /* Debug */,
+				62057052D2654A8B8503FC31 /* Release */,
+				ED159612A9F14718A4424EFB /* MinSizeRel */,
+				8C8349B9E56249A1A59D7D97 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6C1B5D9CD0E548F88AA0752F /* Build configuration list for PBXAggregateTarget "format" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9BEB09C399457DA0CC7300 /* Debug */,
+				2782D716EB42420FBFAE3AA3 /* Release */,
+				ABC854FCA14D41458EFC8021 /* MinSizeRel */,
+				27A21667128D4CB883B14B38 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		749C30A468F2418CAB9F42C2 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B2D54B179B46B69574E2B5 /* Debug */,
+				7FFDE2D37571497082A92D2D /* Release */,
+				3468861314544A7CA8D42ED2 /* MinSizeRel */,
+				380F35F8B6DA4E6D98BF6BA3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB9DC527D88241CF9BA580B2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE744096B274420B4FEFB9D /* Debug */,
+				39949B38DAE74637B9F22A12 /* Release */,
+				41588D8AF48C4056BAF94BFD /* MinSizeRel */,
+				79F68D7C70E046B0A5B013AD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B1EC4B67CEE4A11BD203FD5 /* Project object */;
+}
